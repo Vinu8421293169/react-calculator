@@ -1,0 +1,46 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.screen {
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #99ffcc;
+  margin-bottom: 5px;
+  width: 206px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.keysize {
+  margin: 1px;
+  height: 50px;
+  width: 102px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 4px 1px #888888;
+}
+
+.keySize {
+  margin: 1px;
+  height: 50px;
+  width: 50px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 4px 1px #888888;
+}
+
+.row {
+  display: flex;
+}
